@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#F5E06A"/>
+  <rect x="14" y="14" width="572" height="572" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="12,6"/>
+  <!-- スプーンアイコン -->
+  <g transform="translate(300,260)" fill="#333" opacity="0.35">
+    <ellipse cx="0" cy="-55" rx="36" ry="46"/>
+    <rect x="-7" y="-9" width="14" height="90" rx="7"/>
+  </g>
+  <!-- ラベル -->
+  <text x="300" y="400" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#444">hero-main.jpg</text>
+  <text x="300" y="425" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#666">推奨サイズ：600 × 600 px</text>
+</svg>

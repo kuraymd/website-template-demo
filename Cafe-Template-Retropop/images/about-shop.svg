@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" width="560" height="480">
+  <rect width="560" height="480" fill="#FBCCD5"/>
+  <rect x="14" y="14" width="532" height="452" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="12,6"/>
+  <!-- カップアイコン -->
+  <g transform="translate(280,210)" fill="#333" opacity="0.35">
+    <rect x="-40" y="-30" width="80" height="60" rx="8"/>
+    <rect x="-28" y="30" width="56" height="10" rx="5"/>
+    <path d="M40,-10 Q60,-10 60,10 Q60,30 40,30" fill="none" stroke="#333" stroke-width="8" opacity="0.35"/>
+  </g>
+  <text x="280" y="340" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#444">about-shop.jpg</text>
+  <text x="280" y="365" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#666">推奨サイズ：560 × 480 px</text>
+</svg>

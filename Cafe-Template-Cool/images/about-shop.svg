@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" width="560" height="480">
+  <rect width="560" height="480" fill="#20203A"/>
+  <!-- グリッドパターン -->
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="560" height="480" fill="url(#g)"/>
+  <!-- ボーダー -->
+  <rect x="1" y="1" width="558" height="478" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.5"/>
+  <!-- コーナーブラケット -->
+  <polyline points="14,466 14,14 546,14" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <polyline points="546,466 546,466 14,466" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <!-- ラベル -->
+  <text x="280" y="232" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="12" fill="#C9A84C" opacity="0.6" letter-spacing="2">about-shop.jpg</text>
+  <text x="280" y="254" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="10" fill="#C9A84C" opacity="0.3" letter-spacing="1">560 × 480 px</text>
+  <!-- ゴールドのダイヤ -->
+  <rect x="276" y="202" width="8" height="8" fill="#C9A84C" opacity="0.5" transform="rotate(45,280,206)"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#D4A96A"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="200" y="135" text-anchor="middle" font-family="sans-serif" font-size="40" opacity="0.4">🍫</text>
+  <text x="200" y="200" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#333">menu-chocolate-cake.jpg</text>
+  <text x="200" y="220" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">400 × 300 px</text>
+</svg>

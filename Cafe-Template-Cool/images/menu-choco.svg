@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1A2E"/>
+  <!-- グリッドパターン -->
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <!-- ボーダー -->
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.5"/>
+  <!-- コーナーブラケット -->
+  <polyline points="14,286 14,14 386,14" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <polyline points="386,286 386,286 14,286" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <!-- ラベル -->
+  <text x="200" y="142" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="12" fill="#C9A84C" opacity="0.6" letter-spacing="2">menu-choco.jpg</text>
+  <text x="200" y="164" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="10" fill="#C9A84C" opacity="0.3" letter-spacing="1">400 × 300 px</text>
+  <!-- ゴールドのダイヤ -->
+  <rect x="196" y="112" width="8" height="8" fill="#C9A84C" opacity="0.5" transform="rotate(45,200,116)"/>
+</svg>

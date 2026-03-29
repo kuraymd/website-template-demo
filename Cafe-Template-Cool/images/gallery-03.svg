@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#20203A"/>
+  <!-- グリッドパターン -->
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <!-- ボーダー -->
+  <rect x="1" y="1" width="398" height="398" fill="none" stroke="#0F9B8E" stroke-width="1" opacity="0.5"/>
+  <!-- コーナーブラケット -->
+  <polyline points="14,386 14,14 386,14" fill="none" stroke="#0F9B8E" stroke-width="1" opacity="0.4"/>
+  <polyline points="386,386 386,386 14,386" fill="none" stroke="#0F9B8E" stroke-width="1" opacity="0.4"/>
+  <!-- ラベル -->
+  <text x="200" y="192" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="12" fill="#0F9B8E" opacity="0.6" letter-spacing="2">gallery-03.jpg</text>
+  <text x="200" y="214" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="10" fill="#0F9B8E" opacity="0.3" letter-spacing="1">400 × 400 px</text>
+  <!-- ゴールドのダイヤ -->
+  <rect x="196" y="162" width="8" height="8" fill="#0F9B8E" opacity="0.5" transform="rotate(45,200,166)"/>
+</svg>

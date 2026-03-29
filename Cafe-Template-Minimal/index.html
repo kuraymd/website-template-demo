@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Velvet Spoon – とびっきり甘い、特別な時間を。東京・渋谷のスイーツカフェ。">
+  <title>Velvet Spoon | Sweets Café</title>
+
+  <!--
+    Google Fonts
+    ─────────────────────────────────────────
+    英字：Inter（200 / 300 / 400 / 500）
+    日本語：Noto Sans JP（300 / 400）
+    CSS変数 --font-en / --font-ja で管理
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ▼ ヘッダー・ナビゲーション ここから -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="nav-logo__text">Velvet Spoon</span>
+      </a>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#menu"    class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#access"  class="nav-link">Access</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="ナビゲーションを開く">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+    </nav>
+  </header>
+  <!-- ▲ ヘッダー・ナビゲーション ここまで -->
+
+
+  <main>
+
+    <!-- ▼ ヒーローセクション ここから -->
+    <section class="hero" id="home">
+      <div class="hero__inner container">
+
+        <!-- テキストエリア -->
+        <div class="hero__text">
+          <p class="hero__eyebrow">Tokyo Sweets Café</p>
+          <h1 class="hero__title">Velvet<br>Spoon</h1>
+          <p class="hero__catch">とびっきり甘い、<br>特別な時間を。</p>
+          <div class="hero__actions">
+            <a href="#menu"  class="btn btn--fill">View Menu</a>
+            <a href="#about" class="btn btn--ghost">Our Story</a>
+          </div>
+        </div>
+
+        <!-- ヒーロー画像エリア -->
+        <div class="hero__image-wrap">
+          <!-- ヒーローメインビジュアル（推奨サイズ：600 × 600 px、正方形） -->
+          <!-- ファイル名：images/hero-main.jpg -->
+          <img
+            src="images/hero-main.svg"
+            alt="Velvet Spoonのスイーツ"
+            class="hero__img"
+            width="600"
+            height="600"
+          >
+        </div>
+
+      </div>
+    </section>
+    <!-- ▲ ヒーローセクション ここまで -->
+
+
+    <!-- ▼ マーキー（テキストティッカー）ここから -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <!-- テキストを 2 セット並べてループさせる -->
+        <span class="marquee__text">Velvet Spoon &nbsp;—&nbsp; Sweets Café &nbsp;—&nbsp; Tokyo &nbsp;—&nbsp; Hand Crafted &nbsp;—&nbsp; Est. 2020 &nbsp;—&nbsp; Seasonal Desserts &nbsp;—&nbsp; </span>
+        <span class="marquee__text" aria-hidden="true">Velvet Spoon &nbsp;—&nbsp; Sweets Café &nbsp;—&nbsp; Tokyo &nbsp;—&nbsp; Hand Crafted &nbsp;—&nbsp; Est. 2020 &nbsp;—&nbsp; Seasonal Desserts &nbsp;—&nbsp; </span>
+      </div>
+    </div>
+    <!-- ▲ マーキー ここまで -->
+
+
+    <!-- ▼ お店紹介セクション ここから -->
+    <section class="about" id="about">
+      <div class="about__inner container">
+
+        <!-- 画像エリア -->
+        <div class="about__image-wrap js-reveal">
+          <!-- お店紹介画像（推奨サイズ：560 × 480 px） -->
+          <!-- ファイル名：images/about-shop.jpg -->
+          <img
+            src="images/about-shop.svg"
+            alt="Velvet Spoonの店内風景"
+            class="about__img"
+            width="560"
+            height="480"
+          >
+        </div>
+
+        <!-- テキストエリア -->
+        <div class="about__text js-reveal">
+          <p class="section-eyebrow"><span class="section-num">01</span>About</p>
+          <h2 class="section-title">甘さの中に、<br>アートを。</h2>
+          <p class="about__body">
+            Velvet Spoon は、毎日のちょっとした幸せを大切にしたいという思いから生まれたスイーツカフェです。<br><br>
+            素材にとことんこだわり、職人が一つひとつ丁寧に仕上げたケーキやパフェは、見た目の美しさはもちろん、口に入れた瞬間の驚きも大切にしています。<br><br>
+            どの一皿も、食べた人の記憶に残るような、そんな特別なひとくちを目指しています。
+          </p>
+          <div class="about__tags">
+            <span class="tag">手作りスイーツ</span>
+            <span class="tag">旬の素材</span>
+            <span class="tag">テイクアウト OK</span>
+            <span class="tag">カフェタイム</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ▲ お店紹介セクション ここまで -->
+
+
+    <!-- ▼ メニューセクション ここから -->
+    <section class="menu" id="menu">
+      <div class="container">
+
+        <!-- セクションヘッダー -->
+        <div class="section-header js-reveal">
+          <p class="section-eyebrow"><span class="section-num">02</span>Menu</p>
+          <h2 class="section-title">おすすめメニュー</h2>
+          <p class="section-desc">季節のフルーツや厳選素材を使った、自慢のスイーツをご紹介します。</p>
+        </div>
+
+        <!-- メニューグリッド -->
+        <div class="menu-grid">
+
+          <!-- ▼ メニューアイテム 1 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-choco.jpg -->
+              <img
+                src="images/menu-choco.svg"
+                alt="ベルベットショコラケーキ"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Cake</p>
+              <h3 class="menu-card__name">ベルベットショコラケーキ</h3>
+              <p class="menu-card__desc">ビロードのようになめらかな口どけ。濃厚なベルギーチョコレートを使った、大人のためのリッチなケーキ。</p>
+              <p class="menu-card__price">¥ 780</p>
+            </div>
+          </article>
+
+          <!-- ▼ メニューアイテム 2 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-parfait.jpg -->
+              <img
+                src="images/menu-parfait.svg"
+                alt="いちごミルクパフェ"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Parfait</p>
+              <h3 class="menu-card__name">いちごミルクパフェ</h3>
+              <p class="menu-card__desc">旬のいちごを贅沢に使った、見た目もかわいいパフェ。自家製いちごソースがたっぷり。</p>
+              <p class="menu-card__price">¥ 1,200</p>
+            </div>
+          </article>
+
+          <!-- ▼ メニューアイテム 3 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-tart.jpg -->
+              <img
+                src="images/menu-tart.svg"
+                alt="ピスタチオタルト"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Tart</p>
+              <h3 class="menu-card__name">ピスタチオタルト</h3>
+              <p class="menu-card__desc">フランス産ピスタチオを贅沢に使ったクリームが主役。サクサクのタルト生地との相性は抜群。</p>
+              <p class="menu-card__price">¥ 680</p>
+            </div>
+          </article>
+
+          <!-- ▼ メニューアイテム 4 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-roll.jpg -->
+              <img
+                src="images/menu-roll.svg"
+                alt="バニラレインボーロール"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Roll Cake</p>
+              <h3 class="menu-card__name">バニラレインボーロール</h3>
+              <p class="menu-card__desc">カラフルなクリームが渦を巻く、見た目にもたのしいロールケーキ。香り豊かなバニラビーンズ入り。</p>
+              <p class="menu-card__price">¥ 720</p>
+            </div>
+          </article>
+
+          <!-- ▼ メニューアイテム 5 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-sorbet.jpg -->
+              <img
+                src="images/menu-sorbet.svg"
+                alt="マンゴーシャーベット"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Sorbet</p>
+              <h3 class="menu-card__name">マンゴーシャーベット</h3>
+              <p class="menu-card__desc">南国の太陽をそのまま閉じ込めたような、鮮やかなマンゴーシャーベット。爽やかな後味。</p>
+              <p class="menu-card__price">¥ 580</p>
+            </div>
+          </article>
+
+          <!-- ▼ メニューアイテム 6 -->
+          <article class="menu-card js-reveal">
+            <div class="menu-card__img-wrap">
+              <!-- メニュー画像（推奨サイズ：400 × 300 px） -->
+              <!-- ファイル名：images/menu-scone.jpg -->
+              <img
+                src="images/menu-scone.svg"
+                alt="ハニーレモンスコーン"
+                class="menu-card__img"
+                width="400" height="300"
+              >
+            </div>
+            <div class="menu-card__body">
+              <p class="menu-card__tag">Scone</p>
+              <h3 class="menu-card__name">ハニーレモンスコーン</h3>
+              <p class="menu-card__desc">外はサクサク、中はふわふわ。国産はちみつとレモンが絶妙にマッチした自慢のスコーン。</p>
+              <p class="menu-card__price">¥ 450</p>
+            </div>
+          </article>
+
+        </div><!-- /.menu-grid -->
+
+        <!-- 全メニューへのリンク -->
+        <div class="menu__cta js-reveal">
+          <a href="#" class="btn btn--fill">全メニューを見る</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- ▲ メニューセクション ここまで -->
+
+
+    <!-- ▼ ギャラリーセクション ここから -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+
+        <!-- セクションヘッダー -->
+        <div class="section-header js-reveal">
+          <p class="section-eyebrow"><span class="section-num">03</span>Gallery</p>
+          <h2 class="section-title">Gallery</h2>
+          <p class="section-desc">Velvet Spoonの日々の風景をご覧ください。</p>
+        </div>
+
+        <!-- ギャラリーグリッド -->
+        <div class="gallery-grid js-reveal">
+
+          <!-- ▼ ギャラリー画像 1（横幅広め） -->
+          <div class="gallery-item gallery-item--wide">
+            <!-- ギャラリー画像（推奨サイズ：800 × 500 px） -->
+            <!-- ファイル名：images/gallery-01.jpg -->
+            <img src="images/gallery-01.svg" alt="春のショーケース" class="gallery-item__img" width="800" height="500">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">春のショーケース</p></div>
+          </div>
+
+          <!-- ▼ ギャラリー画像 2 -->
+          <div class="gallery-item">
+            <!-- ギャラリー画像（推奨サイズ：400 × 400 px） -->
+            <!-- ファイル名：images/gallery-02.jpg -->
+            <img src="images/gallery-02.svg" alt="職人の手仕事" class="gallery-item__img" width="400" height="400">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">職人の手仕事</p></div>
+          </div>
+
+          <!-- ▼ ギャラリー画像 3 -->
+          <div class="gallery-item">
+            <!-- ギャラリー画像（推奨サイズ：400 × 400 px） -->
+            <!-- ファイル名：images/gallery-03.jpg -->
+            <img src="images/gallery-03.svg" alt="くつろぎの空間" class="gallery-item__img" width="400" height="400">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">くつろぎの空間</p></div>
+          </div>
+
+          <!-- ▼ ギャラリー画像 4 -->
+          <div class="gallery-item">
+            <!-- ギャラリー画像（推奨サイズ：400 × 400 px） -->
+            <!-- ファイル名：images/gallery-04.jpg -->
+            <img src="images/gallery-04.svg" alt="季節のパフェ" class="gallery-item__img" width="400" height="400">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">季節のパフェ</p></div>
+          </div>
+
+          <!-- ▼ ギャラリー画像 5 -->
+          <div class="gallery-item">
+            <!-- ギャラリー画像（推奨サイズ：400 × 400 px） -->
+            <!-- ファイル名：images/gallery-05.jpg -->
+            <img src="images/gallery-05.svg" alt="テラス席" class="gallery-item__img" width="400" height="400">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">テラス席</p></div>
+          </div>
+
+          <!-- ▼ ギャラリー画像 6（横幅広め） -->
+          <div class="gallery-item gallery-item--wide">
+            <!-- ギャラリー画像（推奨サイズ：800 × 500 px） -->
+            <!-- ファイル名：images/gallery-06.jpg -->
+            <img src="images/gallery-06.svg" alt="アフタヌーンティーセット" class="gallery-item__img" width="800" height="500">
+            <div class="gallery-item__overlay"><p class="gallery-item__caption">アフタヌーンティー</p></div>
+          </div>
+
+        </div><!-- /.gallery-grid -->
+
+      </div>
+    </section>
+    <!-- ▲ ギャラリーセクション ここまで -->
+
+
+    <!-- ▼ アクセスセクション ここから -->
+    <section class="access" id="access">
+      <div class="container">
+
+        <!-- セクションヘッダー -->
+        <div class="section-header js-reveal">
+          <p class="section-eyebrow"><span class="section-num">04</span>Access</p>
+          <h2 class="section-title">お店情報・アクセス</h2>
+        </div>
+
+        <div class="access__inner js-reveal">
+
+          <!-- 店舗情報 -->
+          <div class="access__info">
+            <dl class="info-list">
+              <div class="info-list__item">
+                <dt class="info-list__label">Address</dt>
+                <dd class="info-list__value">
+                  〒150-0001<br>
+                  東京都渋谷区キャットストリート 2-5-8<br>
+                  ベルベットビル 1F
+                </dd>
+              </div>
+              <div class="info-list__item">
+                <dt class="info-list__label">Hours</dt>
+                <dd class="info-list__value">
+                  火〜金：11:00 – 19:00<br>
+                  土・日・祝：10:00 – 20:00<br>
+                  <span class="info-list__note">※ラストオーダーは閉店 30 分前</span>
+                </dd>
+              </div>
+              <div class="info-list__item">
+                <dt class="info-list__label">Closed</dt>
+                <dd class="info-list__value">毎週月曜日（祝日の場合は翌火曜日）</dd>
+              </div>
+              <div class="info-list__item">
+                <dt class="info-list__label">Tel</dt>
+                <dd class="info-list__value">03-XXXX-XXXX</dd>
+              </div>
+              <div class="info-list__item">
+                <dt class="info-list__label">Access</dt>
+                <dd class="info-list__value">渋谷駅 徒歩 10 分 ／ 表参道駅 徒歩 12 分</dd>
+              </div>
+            </dl>
+
+            <!-- SNS リンク -->
+            <div class="access__sns">
+              <p class="access__sns-label">Follow us</p>
+              <div class="access__sns-links">
+                <a href="#" class="sns-link">Instagram</a>
+                <a href="#" class="sns-link">Twitter / X</a>
+              </div>
+            </div>
+          </div><!-- /.access__info -->
+
+          <!-- マップエリア -->
+          <div class="access__map">
+            <!--
+              Google マップを埋め込む場合は、
+              下の <img> を削除して <iframe> に差し替えてください。
+              例：
+              <iframe
+                src="https://www.google.com/maps/embed?..."
+                width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy">
+              </iframe>
+            -->
+            <!-- マップ仮画像（推奨サイズ：600 × 450 px） -->
+            <!-- ファイル名：images/map-placeholder.jpg -->
+            <img
+              src="images/map-placeholder.svg"
+              alt="アクセスマップ"
+              class="access__map-img"
+              width="600"
+              height="450"
+            >
+          </div>
+
+        </div><!-- /.access__inner -->
+
+      </div>
+    </section>
+    <!-- ▲ アクセスセクション ここまで -->
+
+  </main>
+
+
+  <!-- ▼ フッター ここから -->
+  <footer class="site-footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <p class="footer__logo">Velvet Spoon</p>
+        <p class="footer__tagline">とびっきり甘い、特別な時間を。</p>
+      </div>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <ul class="footer__nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#access">Access</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer__copy container">&copy; 2026 Velvet Spoon. All Rights Reserved.</p>
+  </footer>
+  <!-- ▲ フッター ここまで -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
